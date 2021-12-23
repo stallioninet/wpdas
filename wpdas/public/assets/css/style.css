@@ -1,0 +1,34 @@
+/**
+ * Plugin Name:       Delivery Availability Search
+ * Plugin URI:        https://example.com/plugins/wpdas/
+ * Description:       A simple WordPress plugin which manages Delivery Zones and Zip codes of service companies.
+ * Version:           1.0.0
+ * Requires at least: 5.4
+ * Requires PHP:      7.2
+ * Author:            STALLIONi Net Solutions
+ * Author URI:        https://stallioni.com/
+ * License:           GPL v2 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:       wpdas
+ */
+.wpzg-search-form-wrap {
+    padding: 30px 0;
+}
+.wpzg-search-form {
+    text-align: center;
+}
+.wpzg-search-form .form-control {
+    padding: 7px 50px 7px 15px;
+    border: 1px solid #dfe5e8;
+    color: #2c2e3d;
+    background-color: #f4f6f7;
+}
+.wpzg-search-form .button-search-zipcode {
+    margin: 0 auto;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #34b0e4;
+    color: #FFF;
+    font-weight: 600;
+    display: inline-block;
+}

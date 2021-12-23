@@ -1,0 +1,148 @@
+/**
+ * Plugin Name:       Delivery Availability Search
+ * Plugin URI:        https://example.com/plugins/wpdas/
+ * Description:       A simple WordPress plugin which manages Delivery Zones and Zip codes of service companies.
+ * Version:           1.0.0
+ * Requires at least: 5.4
+ * Requires PHP:      7.2
+ * Author:            STALLIONi Net Solutions
+ * Author URI:        https://stallioni.com/
+ * License:           GPL v2 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:       wpdas
+ */
+
+.modal-header .modal-title {
+    margin: 0;
+    font-size: 20px;
+}
+.modal.fade {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0, 0.5);
+    z-index: 999;
+    display: none;
+}
+.modal-dialog {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 50vw;
+    background: #FFF;
+}
+.modal-body {
+    padding: 20px 30px;
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+}
+.modal-header {
+    padding: 15px 15px;
+}
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    column-gap: 20px;
+}
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    column-gap: 20px;
+}
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    column-gap: 20px;
+}
+.form-group .form-field {
+    width: 100%;
+    padding: 5px 20px;
+    font-size: 12px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+.modal .form-group {
+    margin-bottom: 20px;
+}
+.modal .form-footer {
+    background: #F1F1F1!important;
+    border: 0 !important;
+    text-align: right;
+    padding: 15px 15px;
+}
+.btn-modal-save {
+    border: 1px solid #2271b1;
+    padding: 5px 15px;
+    background-color: #2271b1;
+    color: #FFF;
+    cursor: pointer;
+}
+.btn-modal-close {
+    background: #FFF;
+    border: 1px solid #999;
+    padding: 5px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.form-field[readonly] {
+    background: #E7E7E7;
+}
+.success-msg{
+    background-color: #6dab3c;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #FFF;
+}
+.error-msg{
+    background-color: #ec2228;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #FFF;
+}
+.ast{
+    color: #ec2228;
+    font-size: 20px;
+    margin-left: 5px;
+    top: 2px;
+    position: relative;
+}
+.form-group input[type="checkbox"].form-field {
+    width: auto;
+    margin-right: 5px;
+}
+#addnewzipcode {
+    background: #47B8E7;
+    border: 0;
+    color: #FFF;
+    padding: 5px 20px;
+    position: absolute;
+}
+.form-group .form-field.w-auto {
+    width: auto;
+    margin-right: 10px;
+}
+.form-group select.form-field {
+    border: 1px solid #DDD;
+    padding: 8px 20px;
+}
+.form-col .form-field {
+    margin-top: 0;
+}
+.form-group.inner-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    column-gap: 20px;
+    margin-top: 30px;
+}
