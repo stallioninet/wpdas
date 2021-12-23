@@ -1,6 +1,6 @@
 # wpdas
 
-Delivery availability search plugin
+Delivery availability search plugin  (#B360)
 
 A simple WordPress plugin which manages Delivery Zones and
 Zip codes of service companies.
